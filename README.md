@@ -1,1 +1,1 @@
-# bbFlatHeight
+# bbFlatHeight高さ揃えする jQuery プラグインです。## 使い方```$('.elm').bbFlatHeight({    col: 2});```「col」で列を指定してください。指定しない場合は全ての指定要素を同じ高さにします。
