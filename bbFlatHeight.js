@@ -16,8 +16,8 @@
         var row = 0;
         
         $this.each(function(i) {
-            if ($(this).outerHeight() > h) {
-                h = $(this).outerHeight();
+            if ($(this).height() > h) {
+                h = $(this).height();
             }
             if ((i+1) % col === 0) {
                 var lt = row * col;
